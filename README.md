@@ -43,10 +43,10 @@ A FastAPI-based REST API that provides profile information along with a random c
 |----------|-------------|---------|----------|
 | `EMAIL` | User's email address | - | Yes |
 | `FULL_NAME` | User's full name | - | Yes |
-| `STACK` | Tech stack description | `Python/FastAPI` | No |
-| `CATFACT_URL` | Cat Facts API URL | `https://catfact.ninja/fact` | No |
-| `CATFACT_TIMEOUT_SECONDS` | Timeout for cat fact API requests | `2.0` | No |
-| `FAIL_ON_CATFACT_ERROR` | Whether to fail if cat fact API is unavailable | `False` | No |
+| `STACK` | Tech stack description | `Python/FastAPI` | Yes |
+| `CATFACT_URL` | Cat Facts API URL | `https://catfact.ninja/fact` | Yes |
+| `CATFACT_TIMEOUT_SECONDS` | Timeout for cat fact API requests | `2.0` | Yes |
+| `FAIL_ON_CATFACT_ERROR` | Whether to fail if cat fact API is unavailable | `False` | Yes |
 
 ## Running the Application
 
